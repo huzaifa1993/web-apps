@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(225, 237, 241);
+}
+
+.nav {
+    background-color: rgb(13, 73, 92);
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav__item {
+    margin-right: 2rem;
+  }
+  
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav__link:hover {
+    background-color: #fff;
+    color: rgb(28, 17, 186);
+  }
+  
+  .nav__link.active {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  li{
+    font-size: 20px;
+  }
