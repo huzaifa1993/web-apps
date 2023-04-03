@@ -2,7 +2,7 @@ body{
     background-color: rgb(225, 237, 241);
 }
 
-.nav {
+.navbar {
     background-color: rgb(13, 73, 92);
     padding: 3rem;
     display: flex;
