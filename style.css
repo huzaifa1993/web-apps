@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-color: rgb(225, 237, 241);
 }
 
@@ -30,7 +31,7 @@ body{
   
   .nav__link:hover {
     background-color: #fff;
-    color: rgb(28, 17, 186);
+    color: rgb(10, 139, 148);
   }
   
   .nav__link.active {
@@ -40,4 +41,16 @@ body{
   
   li{
     font-size: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: rgb(16, 109, 163);
+    font-size: 30px;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(16, 144, 173);
+    font-size: 50px;
   }
